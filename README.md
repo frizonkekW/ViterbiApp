@@ -52,9 +52,11 @@
 # Создание директории для сборки
 mkdir build && cd build
 
-# Конфигурация и компиляция
+# Конфигурация
 cmake ..
-cmake --build . --config Release
+
+# Сборка
+cmake --build .
 
 ```
 
@@ -67,7 +69,7 @@ cmake --build . --config Release
 ./viterbi_app
 
 # Для Windows (CMD/PowerShell)
-.\Release\viterbi_app.exe
+./viterbi_app.exe
 
 ```
 
